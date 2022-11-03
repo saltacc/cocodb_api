@@ -1,5 +1,3 @@
-import shutil
-
 import coco_db
 
 # create an instance of the database class
@@ -12,7 +10,7 @@ import coco_db
 db = coco_db.Database('123.123.123.123', 5555, 'example', '00000000-0000-0000-0000-00000000000', 'username')
 
 
-# gets the total images
+# gets the total images for the current source
 db.get_entry_total()
 
 # gets the metadata for a current entry in the database
